@@ -1,0 +1,1 @@
+this is just an experimental proof of concept that demonstrates wasm-bindgen working with Rust, TypeScript, NextJs and Node.

@@ -1,0 +1,15 @@
+{
+  "name": "wasm_rs_experiments",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build:wasm:web": "wasm-pack build --target nodejs --out-dir pkg-web",
+    "build:wasm:node": "wasm-pack build --target nodejs --out-dir pkg-node",
+    "build:wasm:bundler": "wasm-pack build --target bundler --out-dir pkg-bundler"
+
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
